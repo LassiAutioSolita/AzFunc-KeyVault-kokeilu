@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzFunc-KeyVault-kokeilu", "AzFunc-KeyVault-kokeilu.csproj", "{3290376F-2E85-996E-5764-A16EA745F258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3290376F-2E85-996E-5764-A16EA745F258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3290376F-2E85-996E-5764-A16EA745F258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3290376F-2E85-996E-5764-A16EA745F258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3290376F-2E85-996E-5764-A16EA745F258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {736CB026-4B20-4ED3-A500-9DA2E9D48A6B}
+	EndGlobalSection
+EndGlobal
