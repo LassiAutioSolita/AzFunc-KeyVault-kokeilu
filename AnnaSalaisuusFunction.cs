@@ -16,7 +16,7 @@ public class AnnaSalaisuusFunction
 
     // GET /api/AnnaSalaisuus
     [Function("AnnaSalaisuus")]
-    public HttpResponseData Run(
+    public async Task<HttpResponseData> Run(
         [HttpTrigger(AuthorizationLevel.Function, "get", Route = "AnnaSalaisuus")]
         HttpRequestData req)
     {
@@ -24,7 +24,7 @@ public class AnnaSalaisuusFunction
 
         var res = req.CreateResponse(HttpStatusCode.OK);
         res.Headers.Add("Content-Type", "text/plain; charset=utf-8");
-        res.WriteString(arvo ?? "(SALAISUUS ei ole asetettu)");
+        await res.WriteStringAsync(arvo ?? "(SALAISUUS ei ole asetettu)");
         return res;
     }
 }
